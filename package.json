@@ -8,7 +8,8 @@
     "start": "tsc && node ./dist/index.js",
     "dev:auth": "ts-node-dev ./index.ts --with-auth",
     "start:auth": "tsc && node ./dist/index.js --with-auth",
-    "heroku-postbuild": "npm run tsc --prefix server"
+    "heroku-postbuild": "npm run tsc --prefix server",
+    "postinstall": "tsc"
   },
   "author": "Michele Stieven",
   "license": "ISC",
