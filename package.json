@@ -8,7 +8,6 @@
     "start": "tsc && node ./dist/index.js",
     "dev:auth": "ts-node-dev ./index.ts --with-auth",
     "start:auth": "tsc && node ./dist/index.js --with-auth",
-    "heroku-postbuild": "npm run tsc --prefix server",
     "tsc": "tsc",
     "postinstall": "npm run tsc"
   },
