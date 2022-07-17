@@ -12,6 +12,10 @@
     "tsc": "tsc",
     "postinstall": "npm run tsc"
   },
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.6.0"
+  },
   "author": "Michele Stieven",
   "license": "ISC",
   "devDependencies": {
